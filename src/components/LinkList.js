@@ -19,7 +19,7 @@ const LinkList = () => {
   return (
     <div>
       {linksToRender.map((link) => {
-        <Link key={link.id} link={link} />
+        return <Link key={link.id} link={link} />
       })}
     </div>
   )

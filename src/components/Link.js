@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Link = (props) =< {
+const Link = (props) => {
   const { link } = props
   return (
     <div>
